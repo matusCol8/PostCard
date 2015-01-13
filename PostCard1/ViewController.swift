@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lblMessage: UILabel!
+    @IBOutlet weak var txtName: UITextField!
+    @IBOutlet weak var txtMessage: UITextField!
+    @IBOutlet weak var btnSendMail: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +26,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnSendMail(sender: UIButton) {
+        lblMessage.hidden=false
+        lblMessage.text=txtMessage.text
+        txtMessage.text = ""
+        txtMessage.resignFirstResponder()
+        btnSendMail.setTitle("Mail Sent", forState: UIControlState.Normal)
+    }
 }
 

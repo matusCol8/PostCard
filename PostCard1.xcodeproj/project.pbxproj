@@ -13,6 +13,8 @@
 		42CA4ECC1A5F115200570C88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4ECB1A5F115200570C88 /* Images.xcassets */; };
 		42CA4ECF1A5F115200570C88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4ECD1A5F115200570C88 /* LaunchScreen.xib */; };
 		42CA4EDB1A5F115200570C88 /* PostCard1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CA4EDA1A5F115200570C88 /* PostCard1Tests.swift */; };
+		42CA4EE51A5F2A3C00570C88 /* Sagrada_Família._Façana_del_Naixement.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4EE41A5F2A3C00570C88 /* Sagrada_Família._Façana_del_Naixement.jpg */; };
+		42CA4EE71A5F353A00570C88 /* sellouncentavo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42CA4EE61A5F353A00570C88 /* sellouncentavo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		42CA4ED41A5F115200570C88 /* PostCard1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCard1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CA4ED91A5F115200570C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42CA4EDA1A5F115200570C88 /* PostCard1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard1Tests.swift; sourceTree = "<group>"; };
+		42CA4EE41A5F2A3C00570C88 /* Sagrada_Família._Façana_del_Naixement.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sagrada_Família._Façana_del_Naixement.jpg"; sourceTree = "<group>"; };
+		42CA4EE61A5F353A00570C88 /* sellouncentavo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sellouncentavo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		42CA4EC21A5F115200570C88 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42CA4EE61A5F353A00570C88 /* sellouncentavo.jpg */,
+				42CA4EE41A5F2A3C00570C88 /* Sagrada_Família._Façana_del_Naixement.jpg */,
 				42CA4EC31A5F115200570C88 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42CA4ECA1A5F115200570C88 /* Main.storyboard in Resources */,
+				42CA4EE71A5F353A00570C88 /* sellouncentavo.jpg in Resources */,
 				42CA4ECF1A5F115200570C88 /* LaunchScreen.xib in Resources */,
+				42CA4EE51A5F2A3C00570C88 /* Sagrada_Família._Façana_del_Naixement.jpg in Resources */,
 				42CA4ECC1A5F115200570C88 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
