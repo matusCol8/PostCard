@@ -27,6 +27,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func btnSendMail(sender: UIButton) {
+        //Adding a comment here to test commits
         lblMessage.hidden=false
         lblMessage.text=txtMessage.text
         txtMessage.text = ""
